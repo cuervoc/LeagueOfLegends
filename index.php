@@ -8,10 +8,10 @@
 <body>
 <?php
 $api_key = 'RGAPI-e45bf63a-f663-4ca2-8e1b-0f3103772db7';
-$summoner_name = 'msfcuervoc';
-$region = 'LA2'; // Cambia esto a la región adecuada
+$summoner_name = 'MSF%20CuervoC%20';
+$region = 'las'; // Cambia esto a la región adecuada
 
-$url = "https://$region.api.riotgames.com/lol/summoner/v4/summoners/by-name/$summoner_name?api_key=$api_key";
+$url = "https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/$summoner_name/$region?api_key=$api_key";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
