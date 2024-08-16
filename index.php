@@ -9,7 +9,7 @@
 <?php
 $api_key = 'RGAPI-e45bf63a-f663-4ca2-8e1b-0f3103772db7';
 $summoner_name = 'msfcuervoc';
-$region = 'la2'; // Cambia esto a la región adecuada
+$region = 'americas'; // Cambia esto a la región adecuada
 
 $url = "https://$region.api.riotgames.com/lol/summoner/v4/summoners/by-name/$summoner_name?api_key=$api_key";
 
